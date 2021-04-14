@@ -49,38 +49,8 @@
       ]
     },
     {
-      "name": "my-element",
-      "path": "./docs-/my-element.bundled.js",
-      "attributes": [
-        {
-          "name": "name",
-          "type": "string"
-        },
-        {
-          "name": "count",
-          "type": "number"
-        }
-      ],
-      "properties": [
-        {
-          "name": "name",
-          "attribute": "name",
-          "type": "string"
-        },
-        {
-          "name": "count",
-          "attribute": "count",
-          "type": "number"
-        },
-        {
-          "name": "hasUpdated",
-          "type": "number"
-        },
-        {
-          "name": "updateComplete",
-          "type": "Promise<any>"
-        }
-      ]
+      "name": "paypal-buttons",
+      "path": "./paypal-buttons.js"
     }
   ]
 }
