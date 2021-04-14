@@ -4,17 +4,16 @@
   <head>
     <meta charset="utf-8">
     <title>&lt;my-element> Demo</title>
-    <script type="module" src="../my-element.js"></script>
+    <script type="module" src="../paypal-checkout.js"></script>
     <style>
       p {
         border: solid 1px blue;
         padding: 8px;
       }
     </style>
+    <script src="https://www.paypal.com/sdk/js?client-id=test"></script>
   </head>
   <body>
-    <my-element>
-      <p>This is child content</p>
-    </my-element>
+    <paypal-buttons />
   </body>
 </html>
